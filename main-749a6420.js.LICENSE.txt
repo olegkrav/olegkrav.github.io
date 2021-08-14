@@ -1,0 +1,6 @@
+/*!(options.guides && !this._guide
+            || options.selected && !this.isSelected()
+            // Support legacy Item#type property to match hyphenated
+            // class-names.
+            || options.type && options.type !== Base.hyphenate(this._class)
+            || options.class && !(this instanceof options.class))*/
